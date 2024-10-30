@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav{
+    background-color: #0F1111;
+    color: white;
+    height: 60px;width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navlogo{
+    background-image: url(amaz_logo.webp);
+    background-size: cover;
+    height: 55px;
+    width: 115px;
+    margin-left: 8px;
+    margin-right: 3px;
+}
+
+.border:hover{
+    border:2px solid white;
+    border-radius: 3px;
+
+}
+.address1{
+    font-size: 12px;
+    color:#CCCCCC;
+    margin-left: 13px;
+}
+.address2{
+    font-size: 14px;
+    margin-left: 3px;
+}
+.icon{
+    display:flex;
+}
+    
+ .box2{
+    padding:9px;
+    margin-right: 10px;
+    border:2px solid transparent;
+    
+ }   
+.box3{
+    display:flex;
+    border-radius: 5px;
+    height: 38px;
+    align-items: center;
+    border: none;
+    background-color: rgb(255, 174, 0);
+
+}
+.select{
+   width: 50px ;border: none;
+   border-bottom-left-radius:5px ;
+   border-top-left-radius:5px ;
+   height: 38px;
+   background-color: rgb(222, 221, 221);
+
+}
+.input_box{
+   width:700px;
+   height: 38px;
+   font-size: 1rem;
+   padding-left: 5px;
+}
+.search_icon{
+   width: 45px;
+   height: 38px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:black;
+}
+.i2{
+   
+    font-size: 1.5rem;
+}
+.flag{
+    background-image: url(america.jpg);
+    background-size: cover;
+    height:16px;
+    width:21.5px;
+    margin-right: 7px;
+}
+.box4{
+    display: flex;
+    margin-left: 15px;
+    height:50px;
+    align-items: center;
+    padding-left:5px;
+    padding-right: 8px;
+    border: 2px solid transparent;
+    
+}
+.dropdown{
+    background-color:#0F1111 ;
+    color: rgb(218, 217, 217);
+    border:none;
+}
+.shit{
+    font-size: 14px;
+    
+}
+.box5{
+    height:50px;
+    padding:7px 9px 10px 9px;
+    border: 2px solid transparent;
+    margin-left: 6px;
+    
+}
+.wtf{
+    display: flex;
+}
+.signin1{
+    font-size: 12px;
+}
+.signin2{
+    font-size: 14px;
+}
+.orders1{
+    font-size: 12px;
+}
+.orders2{
+    font-size: 14px;
+}
+.box6{
+    height:50px;
+    padding:7px 9px 10px 9px;
+    border: 2px solid transparent;
+    width: 78px;
+    
+}
+
+.box7{
+    height: 50px;
+    width: 84px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: small;
+    margin-left: 13px;
+}
+.i3{
+    font-size: 1.7rem;
+}
+.x_shop{ 
+    height: 39px;
+    width:100%;
+    background-color: rgb(42, 50, 64);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.x{
+    border: 2px solid transparent;
+    padding:8px 9px;
+    margin: 5px 6px;
+    font-size: 14px;
+}
+.i4{
+    padding-right: 6px;
+}
+.hero_section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+    margin-left: 15px;
+}
+.head{
+    width: 1370px;
+    height: 40px;
+    padding: 10px 14px;
+    font-size: 14px;
+    position: relative;
+    bottom:400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+   
+}
+
+.head12{
+   color: rgb(22, 184, 130);
+   margin-left: 10px;
+}
+
+.rest{
+    background-color: rgb(244, 244, 244);
+}
+
+.line_1{
+    display: flex;
+}
+.container{
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    padding-left: 15px;
+}
+
+.items_contain1{
+    position: relative;
+    bottom: 350px;
+    left: 29px;
+    }
+.items{ 
+    height: 116px;
+    width: 186px;
+    font-size: 12px;
+    background-size: cover; 
+    margin-right: 15px;
+}
+
+.items1_1{
+    background-image: url(Headset.jpg);
+    }
+
+
+.items1_2{
+    background-image: url(Keyboard.jpg);
+    }
+.items1_3{
+    background-image: url(Mouse.jpg);
+   }
+.items1_4{
+    background-image: url(Chair.jpg);
+   }
+
+.label{
+    padding: 20px 0 15px;
+    font-size: 21px;
+}
+
+.row_1{
+    display: flex;
+    margin-bottom: 20px;
+    }
+
+.row_2{
+    display: flex;
+}
+
+a{
+font-size: 12px;
+}
+
+.items2_5{
+    background-image: url(Jeans.jpg);
+    }
+    
+.items2_6{
+        background-image: url(TOPS.jpg);
+        }
+.items2_7{
+    background-image: url(DRESSES.jpg);
+    }
+            
+.items2_8{
+    background-image: url(SHOES.jpg);
+    }
+.items_contain2{
+    position: relative;
+    bottom: 350px;
+    left:50px;
+    }
+
+
+
+ 
